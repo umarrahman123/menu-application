@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/fooditemlogo-removebg-preview.png" alt="Logo" id="logo">
+        <h1>Our Menu</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showCategory('all')">All</a></li>
+            <li><a href="#" onclick="showCategory('breakfast')">Breakfast</a></li>
+            <li><a href="#" onclick="showCategory('lunch')">Lunch</a></li>
+            <li><a href="#" onclick="showCategory('shakes')">Shakes</a></li>
+        </ul>
+    </nav>
+    
+    <main id="menu">
+        <!-- Menu items will be injected here by JavaScript -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
